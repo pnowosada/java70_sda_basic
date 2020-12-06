@@ -26,7 +26,15 @@ public class Exercise_28_1mz {
         public Double getCapacity(){
             return this.capacity;
         }
-        //Ex32
 
 
+
+    @Override
+    public String toString() {
+        return "Exercise_28_1mz{" +
+                "capacity=" + capacity +
+                ", horsePower=" + horsePower +
+                ", fuelComsumtion=" + fuelComsumtion +
+                '}';
+    }
 }

@@ -31,4 +31,14 @@ public abstract class Car {
         this.engine=engine;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                "producer='" + producer + '\'' +
+                ", color='" + color + '\'' +
+                ", model='" + model + '\'' +
+                ", seatsNumber=" + seatsNumber +
+                ", engine=" + engine.toString() +
+                '}';
+    }
 }
