@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 public class Exercise_28_1mz {
-    public class Engine {
+
         private Double capacity;
         @Getter
         @Setter
@@ -13,7 +13,7 @@ public class Exercise_28_1mz {
         @Setter
         private Double fuelComsumtion;
 
-        public Engine(Double capacity, Integer hoursePower, Double fuelComsumtion) {
+        public Exercise_28_1mz(Double capacity, Integer hoursePower, Double fuelComsumtion) {
             this.capacity = capacity;
             this.horsePower = hoursePower;
             this.fuelComsumtion = fuelComsumtion;
@@ -28,5 +28,5 @@ public class Exercise_28_1mz {
         }
         //Ex32
 
-    }
+
 }
